@@ -9,4 +9,6 @@ phases:
   pre_build:
     commands:
       - npm test
-
+  artifacts:
+    files:
+      - '**/*'
